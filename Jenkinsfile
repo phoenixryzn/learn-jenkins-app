@@ -26,6 +26,7 @@ pipeline {
                     echo "Test stage"
                     pwd
                     test -f ./build/index.html
+                    npm test
                 '''
             }
         }
