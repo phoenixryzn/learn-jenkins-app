@@ -41,8 +41,8 @@
     "@types/node": "^20.8.6"
   },
   "jest-junit": {
-    "suiteName": "test tests",
-    "outputDirectory": "test-results",
+    "suiteName": "jest tests",
+    "outputDirectory": "jest-results",
     "outputName": "junit.xml",
     "uniqueOutputName": "false",
     "classNameTemplate": "{classname}-{title}",
